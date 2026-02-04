@@ -1,0 +1,16 @@
+# Bỏ qua thư mục thư viện nặng nề (Render sẽ tự cài lại)
+node_modules/
+
+# Bỏ qua các file biến môi trường chứa mật khẩu (BẢO MẬT)
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Bỏ qua các file rác của hệ điều hành
+.DS_Store
+Thumbs.db
+
+# Bỏ qua file log lỗi
+npm-debug.log
